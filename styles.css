@@ -53,10 +53,12 @@ h1 span {
 
 /* ---------- Opening statements ---------- */
 
-.manifesto {
-    font-size: 1.3rem;
-    line-height: 1.7;
-    margin: 0 0 2.5rem;
+.manifesto{
+    display:inline-block;
+    text-align:left;
+    font-size:2rem;
+    line-height:1.5;
+    margin:50px auto;
 }
 
 /* ---------- Quote ---------- */
