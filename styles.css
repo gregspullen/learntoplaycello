@@ -26,6 +26,11 @@ h1 {
     margin-bottom: 1em;
 }
 
+h1 span {
+    font-weight: normal;
+    color: #666;
+}
+
 .manifesto {
     font-size: 1.6rem;
     line-height: 1.8;
