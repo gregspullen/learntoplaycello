@@ -141,13 +141,12 @@ li {
 a{
     color:#8b5e3c;
     text-decoration:underline;
-    text-decoration-thickness:2px;
+    text-decoration-thickness:1.5px;
     text-underline-offset:3px;
-    transition:color .2s ease;
 }
 
 a:hover{
-    color:#5a3418;
+    color:#5d3b1f;
 }
 
 /* ---------- Mobile ---------- */
