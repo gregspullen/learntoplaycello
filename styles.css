@@ -1,0 +1,79 @@
+/* Learn to Play Cello
+   Stylesheet v1.0 */
+
+   body {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.7;
+
+    color: #333;
+    background: #faf8f5;
+}
+
+/* Headings */
+
+h1 {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+/* Paragraphs */
+
+p {
+    margin-bottom: 1.4rem;
+}
+
+/* Lists */
+
+ol,
+ul {
+    padding-left: 2rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+/* Links */
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+}
+
+/* Horizontal rule */
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 3rem 0;
+}
