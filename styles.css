@@ -34,6 +34,23 @@ h1 span {
     font-weight: normal;
 }
 
+.subtitle {
+    margin: -1.8rem 0 2.6rem;
+    font-size: 1.15rem;
+    color: #666;
+    font-style: italic;
+}
+
+.subtitle a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.subtitle a:hover {
+    color: #7a4d20;
+    text-decoration: underline;
+}
+
 /* ---------- Opening statements ---------- */
 
 .manifesto {
