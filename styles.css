@@ -56,9 +56,9 @@ h1 span {
 .manifesto{
     display:inline-block;
     text-align:left;
-    font-size:2rem;
-    line-height:1.5;
-    margin:50px auto;
+    font-size:1.25rem;
+    line-height:1.6;
+    margin:2rem auto;
 }
 
 /* ---------- Quote ---------- */
