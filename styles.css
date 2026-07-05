@@ -19,6 +19,8 @@ body {
     text-align: center;
 }
 
+/* ---------- Headings ---------- */
+
 h1 {
     font-size: 3rem;
     font-weight: normal;
@@ -32,11 +34,15 @@ h1 span {
     font-weight: normal;
 }
 
+/* ---------- Opening statements ---------- */
+
 .manifesto {
     font-size: 1.3rem;
     line-height: 1.7;
-    margin: 0 0 2.7rem;
+    margin: 0 0 2.5rem;
 }
+
+/* ---------- Quote ---------- */
 
 blockquote {
     max-width: 680px;
@@ -48,29 +54,54 @@ blockquote {
 }
 
 .quote-author {
-    margin: 1.1rem 0 0;
+    margin: 1rem 0 0;
     font-size: 1.1rem;
 }
+
+/* ---------- Divider ---------- */
 
 hr {
     width: 72px;
     border: none;
     border-top: 2px solid #b97b3d;
-    margin: 48px auto;
+    margin: 44px auto;
 }
+
+/* ---------- Introduction ---------- */
 
 .intro {
     max-width: 680px;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2.4rem;
     font-size: 1.25rem;
     line-height: 1.75;
     text-align: left;
 }
 
-.coming {
-    font-size: 1.45rem;
-    margin-top: 2rem;
+/* ---------- Contact ---------- */
+
+.contact {
+    max-width: 680px;
+    margin: 0.6rem auto;
+    font-size: 1.12rem;
+    line-height: 1.6;
+    text-align: center;
 }
+
+.email {
+    margin: 0.8rem 0 0;
+    font-size: 1.18rem;
+}
+
+.email a {
+    color: #7a4d20;
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Lists ---------- */
 
 ol {
     max-width: 680px;
@@ -82,8 +113,10 @@ ol {
 }
 
 li {
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.15rem;
 }
+
+/* ---------- Links ---------- */
 
 a {
     color: #7a4d20;
@@ -94,13 +127,10 @@ a:hover {
     text-decoration: underline;
 }
 
-footer {
-    margin-top: 80px;
-    font-size: 1rem;
-    color: #555;
-}
+/* ---------- Mobile ---------- */
 
 @media (max-width: 700px) {
+
     .container {
         margin: 42px auto;
         padding: 0 20px;
@@ -118,7 +148,12 @@ footer {
         font-size: 1.15rem;
     }
 
-    .coming {
-        font-size: 1.3rem;
+    .contact {
+        font-size: 1.05rem;
     }
+
+    .email {
+        font-size: 1.12rem;
+    }
+
 }
