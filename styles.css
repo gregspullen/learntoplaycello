@@ -59,6 +59,8 @@ h1 span {
     font-size:1.35rem;
     line-height:1.5;
     margin:1.2rem auto 2rem auto;
+    font-variant: small-caps;
+    letter-spacing: .03em;
 }
 
 /* ---------- Quote ---------- */
