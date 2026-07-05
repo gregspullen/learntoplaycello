@@ -135,13 +135,16 @@ li {
 
 /* ---------- Links ---------- */
 
-a {
-    color: #7a4d20;
-    text-decoration: none;
+a{
+    color:#8b5e3c;
+    text-decoration:underline;
+    text-decoration-thickness:2px;
+    text-underline-offset:3px;
+    transition:color .2s ease;
 }
 
-a:hover {
-    text-decoration: underline;
+a:hover{
+    color:#5b3b1d;
 }
 
 /* ---------- Mobile ---------- */
