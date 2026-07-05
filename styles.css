@@ -56,7 +56,9 @@ h1 span {
 .manifesto{
     display:inline-block;
     text-align:left;
-    line-height:1.6;
+    font-size:1.35rem;
+    line-height:1.5;
+    margin:1.2rem auto 2rem auto;
 }
 
 /* ---------- Quote ---------- */
@@ -144,7 +146,7 @@ a{
 }
 
 a:hover{
-    color:#5b3b1d;
+    color:#5a3418;
 }
 
 /* ---------- Mobile ---------- */
