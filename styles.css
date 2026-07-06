@@ -14,11 +14,14 @@ body {
 .cello-bg {
     position: fixed;
     inset: 0;
-    background:
-        url("images/eastman_bg1.webp") left top / auto 100vh no-repeat,
-        #f4eee8;
     z-index: -1;
-    background-size: auto 100%;
+    pointer-events: none;
+
+    background-color: #f4eee8;
+    background-image: url("images/eastman_bg1.webp");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100vh;
 }
 
 .main-nav {
