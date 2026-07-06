@@ -7,14 +7,55 @@
 body {
     margin: 0;
     background: #f8f5f1;
-    color: #222;
+    color: #1f1f1f;
     font-family: Georgia, "Times New Roman", serif;
-    line-height: 1.65;
+}
+
+.cello-bg {
+    position: fixed;
+    inset: 0;
+    background:
+        url("images/eastman_bg1.webp") left top / auto 100vh no-repeat,
+        #f4eee8;
+    z-index: -1;
+    background-size: auto 100%;
+}
+
+.main-nav {
+    position: fixed;
+    top: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+
+    display: flex;
+    gap: 52px;
+
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.main-nav a {
+    color: #2d2b28;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+.main-nav a:hover {
+    color: #9b6a3d;
+}
+
+.main-nav a.active {
+    color: #9b6a3d;
 }
 
 .container {
+    position: relative;
+    z-index: 1;
+
     max-width: 820px;
-    margin: 55px auto;
+    margin: 170px auto 0;
     padding: 0 28px;
     text-align: center;
 }
@@ -35,6 +76,7 @@ h1 span {
 }
 
 .subtitle{
+    color:#8b5e3c;
     margin:-1.3rem 0 2.0rem;
     font-size:1.25rem;
     font-style:italic;
@@ -65,6 +107,9 @@ blockquote {
 .quote-author {
     margin: 1rem 0 0;
     font-size: 1.1rem;
+    font-style:italic;
+    color: #6d6258;
+
 }
 
 /* ---------- Divider ---------- */
