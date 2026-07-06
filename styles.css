@@ -60,6 +60,9 @@ body {
     max-width: 760px;
     margin: 170px auto 0;
     padding: 0 40px;
+    text-align: center;
+
+    transform: translateX(90px);
 }
 
 /* ---------- Headings ---------- */
