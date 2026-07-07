@@ -32,8 +32,8 @@ body {
 .signpost {
     position: fixed;
     right: 3rem;
-    bottom: 3rem;
-    width: 180px;
+    bottom: 9rem;
+    width: 360px;
 
     opacity: 0.9;
     pointer-events: none;
