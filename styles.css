@@ -126,11 +126,11 @@ hr {
 /* ---------- Introduction ---------- */
 
 .intro {
-    max-width: 700px;
-    margin: 2.5rem auto 0;
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: #444;
+    max-width: 650px;
+    margin: 6rem auto 0;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #888;
     text-align: center;
 }
 
