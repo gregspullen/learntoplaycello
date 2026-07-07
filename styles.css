@@ -144,13 +144,25 @@ hr {
     text-align: center;
 }
 
+.contact-text {
+    margin-top: 8rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
 .email {
-    margin: 0.8rem 0 0;
-    font-size: 1.18rem;
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 .email a {
-    color: #7a4d20;
+    color: #9b6a3a;
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-decoration: underline;
 }
 
 /* ---------- Lists ---------- */
