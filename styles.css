@@ -63,7 +63,12 @@ body {
 }
 
 .contact-container {
+    max-width: 760px;
     margin-top: 5rem;
+    margin-left: calc(50%);
+    transform: translateX(-50%);
+    padding: 0 40px;
+    text-align: center;
 }
 
 /* ---------- Headings ---------- */
