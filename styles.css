@@ -64,12 +64,14 @@ body {
 
 .contact-container {
     max-width: 760px;
-    margin-top: 5rem;
-    padding-top: 5rem;
     margin-left: calc(50%);
     transform: translateX(-50%);
     padding: 0 40px;
     text-align: center;
+}
+
+.contact-text {
+    margin-top: 10rem;
 }
 
 /* ---------- Headings ---------- */
