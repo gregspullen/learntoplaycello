@@ -1,4 +1,6 @@
-/* Learn to Play Cello */
+/* =====================================================
+   Learn to Play Cello
+   ===================================================== */
 
 * {
     box-sizing: border-box;
@@ -9,29 +11,44 @@ body {
     background: #f8f5f1;
     color: #1f1f1f;
     font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.6;
 }
+
+/* =====================================================
+   Background Images
+   ===================================================== */
 
 .cello-bg {
     position: fixed;
     inset: 0;
-    z-index: -1;
+    z-index: -2;
     pointer-events: none;
 
-    background-color: #f4eee8;
-    background-image: url("images/eastman_bg1.WebP");
-    background-repeat: no-repeat;
-    background-position: left center;
+    background: #f4eee8 url("images/eastman_bg1.WebP")
+        no-repeat left center;
     background-size: auto 100vh;
 }
 
 .signpost {
-    position: absolute;
+    position: fixed;
     right: 3rem;
-    top: 170px;
+    bottom: 3rem;
     width: 180px;
+
     opacity: 0.9;
     pointer-events: none;
+    z-index: -1;
 }
+
+.signpost img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* =====================================================
+   Navigation
+   ===================================================== */
 
 .main-nav {
     position: fixed;
@@ -43,8 +60,8 @@ body {
     display: flex;
     gap: 52px;
 
-    font-size: 0.95rem;
-    letter-spacing: 0.08em;
+    font-size: .95rem;
+    letter-spacing: .08em;
     text-transform: uppercase;
 }
 
@@ -54,74 +71,76 @@ body {
     transition: color .2s ease;
 }
 
-.main-nav a:hover {
-    color: #9b6a3d;
-}
-
+.main-nav a:hover,
 .main-nav a.active {
     color: #9b6a3d;
 }
 
+/* =====================================================
+   Main Layout
+   ===================================================== */
+
 .container {
     max-width: 760px;
-    margin-top: 170px;
-    margin-left: calc(50%);
-    transform: translateX(-50%);
+    margin: 170px auto 80px;
     padding: 0 40px;
     text-align: center;
 }
 
 .contact-container {
     max-width: 760px;
-    margin-top: 280px;
-    margin-left: calc(50%);
-    transform: translateX(-50%);
+    margin: 260px auto 80px;
     padding: 0 40px;
     text-align: center;
 }
 
-.contact-text {
-    margin-top: 10rem;
-}
-
-/* ---------- Headings ---------- */
+/* =====================================================
+   Headings
+   ===================================================== */
 
 h1 {
+    margin: 0 0 2.5rem;
+
     font-size: 3rem;
     font-weight: normal;
     line-height: 1.15;
-    margin: 0 0 2.5rem;
 }
 
 h1 span {
     color: #666;
-    font-size: 0.75em;
-    font-weight: normal;
+    font-size: .75em;
 }
 
-.subtitle{
-    color:#8b5e3c;
-    margin: -1.1rem 0 2.8rem;
-    font-size:1.25rem;
-    font-style:italic;
+.subtitle {
+    margin: -1rem 0 2.8rem;
+
+    color: #8b5e3c;
+    font-size: 1.25rem;
+    font-style: italic;
 }
 
-/* ---------- Opening statements ---------- */
+/* =====================================================
+   Manifesto
+   ===================================================== */
 
-.manifesto{
-    display:inline-block;
-    text-align:left;
-    font-size:1.4rem;
-    font-weight:500;
-    line-height:1.5;
-    margin:1.2rem auto 2rem auto;
+.manifesto {
+    display: inline-block;
+
+    margin: 1.2rem auto 2rem;
+
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 1.5;
 }
 
-/* ---------- Quote ---------- */
+/* =====================================================
+   Quote
+   ===================================================== */
 
 blockquote {
     max-width: 680px;
-    margin: 0.8rem auto 0;
+    margin: .8rem auto 0;
+
     font-size: 1.45rem;
     font-style: italic;
     line-height: 1.55;
@@ -129,120 +148,143 @@ blockquote {
 }
 
 .quote-author {
-    margin: 1.4rem 0 0;
+    margin-top: 1.3rem;
+
     font-size: 1.1rem;
     font-style: italic;
-    color: #6d6258;
+    color: #666;
 }
 
-/* ---------- Divider ---------- */
+/* =====================================================
+   Divider
+   ===================================================== */
 
 hr {
     width: 72px;
+    margin: 44px auto;
+
     border: none;
     border-top: 2px solid #b97b3d;
-    margin: 44px auto;
 }
 
-/* ---------- Introduction ---------- */
+/* =====================================================
+   Introduction
+   ===================================================== */
 
 .intro {
     max-width: 650px;
     margin: 6rem auto 0;
-    font-size: 0.9rem;
-    line-height: 1.7;
-    color: #888;
-    text-align: center;
+
+    font-size: .95rem;
+    line-height: 1.75;
+    color: #777;
 }
 
-/* ---------- Contact ---------- */
+/* =====================================================
+   Lists
+   ===================================================== */
+
+ol {
+    max-width: 680px;
+    margin: 0 auto 3rem;
+    padding-left: 1.5rem;
+
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+li {
+    margin-bottom: 1.3rem;
+}
+
+/* =====================================================
+   Contact
+   ===================================================== */
 
 .contact {
     max-width: 680px;
-    margin: 0.6rem auto;
-    font-size: 1.12rem;
-    line-height: 1.6;
-    text-align: center;
+    margin: 0 auto;
+
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 .contact-text {
     margin-top: 8rem;
-    font-size: 1.1rem;
     color: #555;
 }
 
 .email {
     margin-top: 4rem;
     font-size: 1.4rem;
-    font-weight: 500;
 }
 
 .email a {
-    color: #9b6a3a;
-    text-decoration: none;
+    color: #9b6a3d;
 }
 
 .email a:hover {
+    color: #5a3418;
+}
+
+/* =====================================================
+   Links
+   ===================================================== */
+
+a {
+    color: #8b5e3c;
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+
+    transition: .2s;
 }
 
-/* ---------- Lists ---------- */
-
-ol {
-    max-width: 680px;
-    margin: 0 auto 3rem;
-    padding-left: 1.5rem;
-    font-size: 1.2rem;
-    line-height: 1.65;
-    text-align: left;
+a:hover {
+    color: #5a3418;
+    text-decoration-thickness: 2px;
 }
 
-li {
-    margin-bottom: 1.15rem;
+/* =====================================================
+   Mobile
+   ===================================================== */
+
+@media (max-width: 900px) {
+
+    .signpost {
+        display: none;
+    }
+
 }
-
-/* ---------- Links ---------- */
-
-a{
-    color:#8b5e3c;
-    text-decoration:underline;
-    text-decoration-thickness:1px;
-    text-underline-offset:3px;
-    transition:color .2s ease, text-decoration-thickness .2s ease;
-}
-
-a:hover{
-    color:#5a3418;
-    text-decoration-thickness:2px;
-}
-
-/* ---------- Mobile ---------- */
 
 @media (max-width: 700px) {
 
-    .container {
-        margin: 42px auto;
-        padding: 0 20px;
+    .main-nav {
+        gap: 24px;
+        font-size: .82rem;
+    }
+
+    .container,
+    .contact-container {
+        margin: 120px auto 60px;
+        padding: 0 22px;
     }
 
     h1 {
-        font-size: 2.45rem;
-        margin-bottom: 2rem;
+        font-size: 2.3rem;
     }
 
     .manifesto,
     blockquote,
-    .intro,
     ol {
-        font-size: 1.15rem;
+        font-size: 1.1rem;
     }
 
-    .contact {
-        font-size: 1.05rem;
-    }
-
+    .intro,
+    .contact,
     .email {
-        font-size: 1.12rem;
+        font-size: 1rem;
     }
 
 }
