@@ -247,6 +247,57 @@ a:hover {
 }
 
 /* =====================================================
+   Short screens (e.g. 1366 × 768 laptops)
+   ===================================================== */
+
+@media (max-height: 800px) {
+
+    .container,
+    .contact-container {
+        margin-top: 130px;
+    }
+
+    h1 {
+        margin-bottom: 1.6rem;
+    }
+
+    .subtitle {
+        margin: -.5rem 0 2rem;
+    }
+
+    .manifesto {
+        margin: .8rem auto 1.4rem;
+    }
+
+    blockquote {
+        font-size: 1.3rem;
+        line-height: 1.45;
+    }
+
+    .quote-author {
+        margin-top: .8rem;
+    }
+
+    hr {
+        margin: 30px auto;
+    }
+
+    ol {
+        font-size: 1.1rem;
+        line-height: 1.55;
+    }
+
+    li {
+        margin-bottom: .8rem;
+    }
+
+    .intro {
+        margin-top: 3rem;
+    }
+
+}
+
+/* =====================================================
    Mobile
    ===================================================== */
 
