@@ -342,6 +342,12 @@ a:hover {
         padding: 0 22px;
     }
 
+   .cello-bg {
+       opacity: 0.12;
+       background-size: auto 75vh;
+       background-position: left center;
+   }
+
     h1 {
         font-size: 2.3rem;
     }
