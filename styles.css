@@ -252,13 +252,14 @@ a:hover {
 
 @media (max-height: 800px) {
 
+   
+   .signpost {
+       bottom: 14rem;
+   }
+
     .container,
    .contact-container {
        margin-top: 90px;
-   }
-
-   .signpost {
-       bottom: 14rem;
    }
 
     h1 {
