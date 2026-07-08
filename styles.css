@@ -345,6 +345,12 @@ a:hover {
 
 }
 
+.attacca-title {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: .6rem;
+}
+
 .attacca-intro {
     max-width: 650px;
     margin: 1.5rem auto 0;
