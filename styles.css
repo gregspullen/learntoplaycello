@@ -346,29 +346,27 @@ a:hover {
 }
 
 .separator{
-    margin:2rem 0;
+    margin:2rem 0 3rem;
     font-size:1.2rem;
-    letter-spacing:.3em;
+    letter-spacing:.35em;
     color:#777;
 }
 
-.cover-large{
-    width:40px;
-    height:auto;
-    display:block;
-    margin:0 auto 2rem;
+.cover-row{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:3rem;
+    flex-wrap:wrap;
 }
 
-.cover-row {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    gap: 2rem;
-    margin-top: 2rem;
+.piece{
+    width:220px;
+    text-align:center;
 }
 
 .cover{
-    width:32px;
+    width:130px;
     height:auto;
     display:block;
     margin:0 auto 1rem;
@@ -379,6 +377,18 @@ a:hover {
     transform:scale(1.03);
 }
 
-.piece {
-    width: 180px;
+.piece h3{
+    margin:.5rem 0;
+    font-size:1.45rem;
+    font-weight:normal;
+}
+
+.piece p{
+    margin:.5rem 0;
+    line-height:1.6;
+}
+
+.grade{
+    margin-top:.8rem;
+    color:#666;
 }
