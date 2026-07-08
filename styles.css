@@ -250,33 +250,20 @@ a:hover {
    Short screens (e.g. 1366 × 768 laptops)
    ===================================================== */
 
-/* Short screens (e.g. laptops) */
 @media (max-height: 800px) {
+
+    .signpost {
+        bottom: 9rem;
+    }
+
+    .container,
+    .contact-container {
+        margin-top: 90px;
+    }
 
     .attacca-container {
         margin-top: 110px;
     }
-
-}
-
-/* Tall screens (desktops) */
-@media (min-height: 900px) {
-
-    .attacca-container {
-        margin-top: 150px;
-    }
-
-}
-
-   
-   .signpost {
-       bottom: 9rem;
-   }
-
-    .container,
-   .contact-container {
-       margin-top: 90px;
-   }
 
     h1 {
         margin-bottom: 1.6rem;
@@ -314,6 +301,18 @@ a:hover {
 
     .intro {
         margin-top: 3rem;
+    }
+
+}
+
+/* =====================================================
+   Tall screens
+   ===================================================== */
+
+@media (min-height: 900px) {
+
+    .attacca-container {
+        margin-top: 150px;
     }
 
 }
@@ -361,8 +360,12 @@ a:hover {
 
 }
 
-.attacca-container{
-    margin-top:110px;
+/* =====================================================
+   Attacca
+   ===================================================== */
+
+.attacca-container {
+    margin-top: 110px;
 }
 
 .attacca-title {
@@ -373,56 +376,49 @@ a:hover {
 
 .attacca-intro {
     max-width: 650px;
-    margin: 1.5rem auto 0;
+    margin: 1rem auto 2rem;
     font-size: 1.15rem;
     line-height: 1.7;
     color: #666;
 }
 
-.separator{
-    margin:2rem 0 3rem;
-    font-size:1.2rem;
-    letter-spacing:.35em;
-    color:#777;
+.cover-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+    flex-wrap: wrap;
 }
 
-.cover-row{
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    gap:3rem;
-    flex-wrap:wrap;
+.piece {
+    width: 180px;
+    text-align: center;
 }
 
-.piece{
-    width:180px;
-    text-align:center;
+.cover {
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    transition: transform .2s ease;
 }
 
-.cover{
-    width:140px;
-    height:auto;
-    display:block;
-    margin:0 auto 1rem;
-    transition:transform .2s ease;
+.cover:hover {
+    transform: scale(1.03);
 }
 
-.cover:hover{
-    transform:scale(1.03);
+.piece h3 {
+    margin: .5rem 0;
+    font-size: 1.45rem;
+    font-weight: normal;
 }
 
-.piece h3{
-    margin:.5rem 0;
-    font-size:1.45rem;
-    font-weight:normal;
+.piece p {
+    margin: .5rem 0;
+    line-height: 1.6;
 }
 
-.piece p{
-    margin:.5rem 0;
-    line-height:1.6;
-}
-
-.grade{
-    margin-top:.8rem;
-    color:#666;
+.grade {
+    margin-top: .8rem;
+    color: #666;
 }
