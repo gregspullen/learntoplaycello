@@ -250,7 +250,23 @@ a:hover {
    Short screens (e.g. 1366 × 768 laptops)
    ===================================================== */
 
+/* Short screens (e.g. laptops) */
 @media (max-height: 800px) {
+
+    .attacca-container {
+        margin-top: 110px;
+    }
+
+}
+
+/* Tall screens (desktops) */
+@media (min-height: 900px) {
+
+    .attacca-container {
+        margin-top: 150px;
+    }
+
+}
 
    
    .signpost {
