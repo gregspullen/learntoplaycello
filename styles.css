@@ -344,3 +344,42 @@ a:hover {
     }
 
 }
+
+.separator{
+    margin:2rem 0;
+    font-size:1.2rem;
+    letter-spacing:.3em;
+    color:#777;
+}
+
+.cover-large{
+    width:180px;
+    height:auto;
+    display:block;
+    margin:0 auto 2rem;
+}
+
+.cover-row{
+    display:flex;
+    justify-content:center;
+    gap:3rem;
+    flex-wrap:wrap;
+    margin-top:1rem;
+}
+
+.cover{
+    width:120px;
+    height:auto;
+    display:block;
+    margin:0 auto 1rem;
+    transition:transform .2s ease;
+}
+
+.cover:hover{
+    transform:scale(1.03);
+}
+
+.piece{
+    max-width:220px;
+    text-align:center;
+}
