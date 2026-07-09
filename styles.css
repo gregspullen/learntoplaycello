@@ -217,6 +217,26 @@ li {
     box-shadow: 0 10px 30px rgba(0,0,0,.18);
 }
 
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2.5rem;
+}
+
+.email {
+    margin: 0;
+}
+
+.portrait {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,.18);
+}
+
 .contact {
     max-width: 680px;
     margin: 0 auto;
