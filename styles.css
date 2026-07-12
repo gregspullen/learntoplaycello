@@ -46,6 +46,23 @@ body {
     height: auto;
 }
 
+.thinker {
+    position: fixed;
+    right: 6rem;
+    bottom: 15rem;
+    width: 300px;
+
+    opacity: 0.9;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+.thinker img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* =====================================================
    Navigation
    ===================================================== */
